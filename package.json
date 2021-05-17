@@ -1,0 +1,35 @@
+{
+  "name": "caz-pages",
+  "version": "0.1.0",
+  "description": "Awesome node modules.",
+  "keywords": [
+    "caz-pages",
+    "zce"
+  ],
+  "repository": "zce/caz-pages",
+  "license": "MIT",
+  "author": "duwenzheng <1605993932@qq.com> (https://github.com/web-du/dwz-gulp-pages.git)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.3"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
